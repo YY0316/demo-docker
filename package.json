@@ -4,7 +4,7 @@
   "description": "A Node.js sample",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha",
+    "test": "mocha",
     "start": "node app.js"
   },
   "license": "MIT",
@@ -15,5 +15,18 @@
   },
   "dependencies": {
     "express": "^4.9.6"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YY0316/sample-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/YY0316/sample-demo/issues"
+  },
+  "homepage": "https://github.com/YY0316/sample-demo#readme"
 }
